@@ -27,6 +27,10 @@ int main()
     for(auto x : a){
         cout << x << endl;
     }
+    cout<< "with &"<< endl;
+    for(auto& x : a){
+        cout << x << endl;
+    }
 
     return 0;
 }
