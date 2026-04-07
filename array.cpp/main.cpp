@@ -13,5 +13,10 @@ int main()
     for (auto i{0uz}; i < 5; i++){
         cout << a[i] << endl;
     }
+    cout << "differently using for loop" << endl;
+    for (auto i{0}; i < 5; i++){
+        cout << a[i] << endl;
+    }
+
     return 0;
 }
