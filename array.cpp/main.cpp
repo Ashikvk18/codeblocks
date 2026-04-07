@@ -4,6 +4,14 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world1!" << endl;
+    int a[5]={1,2,4};
+    cout << "differently using for loop" << endl;
+    for(int i = 0; i < 5; i++){
+        cout << a[i] << endl;
+    }
+    cout << "differently using for loop" << endl;
+    for (auto i{0uz}; i < 5; i++){
+        cout << a[i] << endl;
+    }
     return 0;
 }
