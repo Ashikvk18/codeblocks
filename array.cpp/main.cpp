@@ -23,6 +23,10 @@ int main()
     for(int i = 0; i < 5; i++){
         cout << b[i] << endl;
     }
+    cout<<"another way"<<endl;
+    for(auto x : a){
+        cout << x << endl;
+    }
 
     return 0;
 }
