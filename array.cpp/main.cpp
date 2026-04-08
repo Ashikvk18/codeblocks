@@ -20,7 +20,7 @@ int main()
     for (auto i{0uz}; i < n; i++){
         cout << r[i] << endl;
     }
-  /*  cout << "size of this array " << sizeof(a) << endl;
+    cout << "size of this array " << sizeof(a) << endl;
     cout << "differently using for loop" << endl;
     for(int i = 0; i < 5; i++){
         cout << a[i] << endl;
@@ -44,7 +44,7 @@ int main()
     for(auto& x : a){
         cout << x << endl;
     }
-    */
+
     delete []r;
 
     return 0;
