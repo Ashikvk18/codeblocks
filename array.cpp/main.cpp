@@ -7,7 +7,19 @@ int main()
     int a[5]={1,2,4};
     int b[10]={3};
     a[4]= 7;
-    cout << "size of this array " << sizeof(a) << endl;
+    int n;
+    cout << "enter the size " <<endl;
+    cin >> n;
+    cout << endl;
+    int* r = new int[n];
+
+    for(auto i{0uz}; i < n; i++){
+        cin >> r[i];
+    }
+    for (auto i{0uz}; i < n; i++){
+        cout << r[i] << endl;
+    }
+  /*  cout << "size of this array " << sizeof(a) << endl;
     cout << "differently using for loop" << endl;
     for(int i = 0; i < 5; i++){
         cout << a[i] << endl;
@@ -31,6 +43,7 @@ int main()
     for(auto& x : a){
         cout << x << endl;
     }
+    */
 
     return 0;
 }
