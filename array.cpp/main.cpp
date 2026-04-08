@@ -12,6 +12,7 @@ int main()
     cin >> n;
     cout << endl;
     int* r = new int[n];
+    cout << "size of this array " << sizeof(r) << endl; //size of pointer is 4 in 32 bit and 8 is 64 bit
 
     for(auto i{0uz}; i < n; i++){
         cout << "enter the" <<i<<"th number: "<< endl;
@@ -20,6 +21,7 @@ int main()
     for (auto i{0uz}; i < n; i++){
         cout << r[i] << endl;
     }
+
     cout << "size of this array " << sizeof(a) << endl;
     cout << "differently using for loop" << endl;
     for(int i = 0; i < 5; i++){
