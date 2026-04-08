@@ -14,6 +14,7 @@ int main()
     int* r = new int[n];
 
     for(auto i{0uz}; i < n; i++){
+        cout << "enter the" <<i<<"th number: "<< endl;
         cin >> r[i];
     }
     for (auto i{0uz}; i < n; i++){
