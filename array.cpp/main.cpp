@@ -45,6 +45,7 @@ int main()
         cout << x << endl;
     }
     */
+    delete []r;
 
     return 0;
 }
