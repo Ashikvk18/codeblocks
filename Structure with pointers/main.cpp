@@ -5,7 +5,7 @@ using namespace std;
 struct Student{
     int roll;
     char name[18];
-};
+}s2,s3,s4;
 
 int main()
 {
